@@ -24,7 +24,7 @@
                                 <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SgY-MS-Vjj">
-                                <rect key="frame" x="20" y="308" width="120" height="120"/>
+                                <rect key="frame" x="77" y="408" width="120" height="120"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <accessibility key="accessibilityConfiguration">
                                     <accessibilityTraits key="traits" button="YES" image="YES"/>
@@ -38,13 +38,17 @@
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IMG_6135" translatesAutoresizingMaskIntoConstraints="NO" id="8GZ-AC-T3O">
-                                <rect key="frame" x="220" y="308" width="120" height="120"/>
+                                <rect key="frame" x="226" y="408" width="120" height="120"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
                                         <integer key="value" value="60"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IMG_6108" translatesAutoresizingMaskIntoConstraints="NO" id="lDm-9u-HEv">
+                                <rect key="frame" x="77" y="554" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -90,6 +94,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="IMG_6108" width="2203" height="1652"/>
         <image name="IMG_6135" width="800" height="600"/>
         <image name="IMG_6135-1" width="1222" height="1564"/>
         <image name="IMG_6173-EFFECTS" width="2086" height="1564"/>
